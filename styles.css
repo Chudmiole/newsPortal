@@ -82,7 +82,7 @@ font-family: 'Raleway', sans-serif;
 	width: 90em;
 	height: 29em;
 	margin: 0 auto 6em;
-	background-image: url(../img/Hotel-11.jpg);
+	background-image: url(../newsPortal/img/Hotel-11.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -197,7 +197,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .area-left__main-section {
-	background-image: url(../img/birds.png);
+	background-image: url(../newsPortal/img/birds.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 29.375em;
@@ -280,7 +280,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .Writers-talk-pic {
-	background: url(../img/Rectangle\ 11.png), url(../img/writers.png);
+	background: url(../newsPortal/img/Rectangle\ 11.png), url(../newsPortal/img/writers.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 8em;
@@ -327,7 +327,7 @@ font-family: 'Raleway', sans-serif;
 .Patrick-s-day-1 {
 	height: 5.625em;
 	width: 8em;
-	background-image: url(../img/Patrick_s_Day.png), url(../img/Rectangle\ 6.2.png);
+	background-image: url(../newsPortal/img/Patrick_s_Day.png), url(../newsPortal/img/Rectangle\ 6.2.png);
 }
 
 /* area-left__review */
@@ -358,7 +358,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .Monparnas-area__pic {
-	background-image: url(../img/krivorojiye.png);
+	background-image: url(../newsPortal/img/krivorojiye.png);
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
@@ -387,8 +387,8 @@ font-family: 'Raleway', sans-serif;
 
 .Anatomy-area__pic {
 	background-image: 
-	url(../img/Rectangle\ 12.png), 
-	url(../img/Снимок\ экрана\ 2018-10-24\ в\ 14.06.png);
+	url(../newsPortal/img/Rectangle\ 12.png), 
+	url(../newsPortal/img/Снимок\ экрана\ 2018-10-24\ в\ 14.06.png);
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
@@ -438,7 +438,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .Ru-ballet-area__pic {
-	background-image: url(../img/baleryna.png);
+	background-image: url(../newsPortal/img/baleryna.png);
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
@@ -468,7 +468,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .Spherical-weirdos-area__pic {
-	background-image: url(../img/babaded.png);
+	background-image: url(../newsPortal/img/babaded.png);
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
@@ -540,7 +540,7 @@ font-family: 'Raleway', sans-serif;
 	justify-content: center;
 	width: 48em;
 	height: 11em;
-	background: url(../img/shpagat.png), url(../img/Rectangle\ 13.png);
+	background: url(../newsPortal/img/shpagat.png), url(../newsPortal/img/Rectangle\ 13.png);
 	align-items: center;
 }
 
@@ -594,7 +594,7 @@ font-family: 'Raleway', sans-serif;
 	width: 23.125em;
 	height: 30em;
 	margin-bottom: 2em;
-	background: url(../img/girl\ with\ balloon.png);
+	background: url(../newsPortal/img/girl\ with\ balloon.png);
 }
 
 .area-right__balloon-text {
@@ -620,7 +620,7 @@ font-family: 'Raleway', sans-serif;
 	width: 23.125em;
 	height: 30em;
 	margin-bottom: 2em;
-	background: url(../img/girl\ under\ water.png);
+	background: url(../newsPortal/img/girl\ under\ water.png);
 }
 
 .area-right__photoshoot-text {
@@ -643,7 +643,7 @@ font-family: 'Raleway', sans-serif;
 	flex-direction: column;
 	width: 23.125em;
 	height: 30em;
-	background: url(../img/bird.png);
+	background: url(../newsPortal/img/bird.png);
 }
 
 .area-right__bird-show-text {
@@ -669,7 +669,7 @@ font-family: 'Raleway', sans-serif;
 .area-bottom__main {
 	width: 16.875em;
 	height: 8.5em;
-	background: url(../img/watches.png);
+	background: url(../newsPortal/img/watches.png);
 	display: flex;
 }
 
@@ -720,19 +720,19 @@ font-family: 'Raleway', sans-serif;
 .area-bottom__2nd {
 	width: 16.875em;
 	height: 6.7em;
-	background: url(../img/canion.png);
+	background: url(../newsPortal/img/canion.png);
 }
 
 .area-bottom__3rd {
 	width: 16.875em;
 	height: 6.7em;
-	background: url(../img/blue\ flat.png);
+	background: url(../newsPortal/img/blue\ flat.png);
 }
 
 .area-bottom__4th {
 	width: 16.875em;
 	height: 6.7em;
-	background: url(../img/airplanes.png);
+	background: url(../newsPortal/img/airplanes.png);
 	display: flex;
 	justify-content: end;
 	align-items: center;
