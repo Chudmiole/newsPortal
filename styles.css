@@ -40,18 +40,42 @@ input, textarea, button, select {
     background-color: transparent;
 }
 
-/*/обнуление*/
+/* обнуление */
 
 body {
 padding-left: 1rem;
 font-family: 'Raleway', sans-serif;
 }
 
+@media (max-width: 821px) {
+	body {
+		padding: 0;
+	}
+}
+
 /* header */
+
+.burger-menu {
+	display: none;
+}
+
+@media (max-width: 821px) {
+	.burger-menu {
+		width: 3.125em;
+		height: 3.125em;
+		background-color: #FF7931;
+	}
+}
 
 .title-h1 {
 	margin: 3.75em auto 2.875em;
 	text-align: center;
+}
+
+@media (max-width: 821px) {
+	.title-h1 {
+		margin: 2.5em auto 2em;
+	}
 }
 
 .h1 {
@@ -59,6 +83,13 @@ font-family: 'Raleway', sans-serif;
 	font-size: 2.1875rem;
 	font-weight: 900;
 	letter-spacing: 0.0625rem;
+}
+
+@media (max-width: 821px) {
+	
+	.h1 {
+		font-size: 1.5625rem;
+	}
 }
 
 .navbar {
