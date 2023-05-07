@@ -1,0 +1,797 @@
+/* обнуление */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+/*/обнуление*/
+
+body {
+padding-left: 1rem;
+font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+
+.title-h1 {
+	margin: 3.75em auto 2.875em;
+	text-align: center;
+}
+
+.h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 2.1875rem;
+	font-weight: 900;
+	letter-spacing: 0.0625rem;
+}
+
+.navbar {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.navbar__li {
+	font-size: 0.9375rem;
+	font-weight: 500;
+	letter-spacing: 0.125rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	padding: 0 1.5em 0;
+}
+
+/*underwater-hotel*/
+
+.underwater-hotel {
+	width: 90em;
+	height: 29em;
+	margin: 0 auto 6em;
+	background-image: url(../img/Hotel-11.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.underwater-hotel__button {
+	padding-top: 3.84375em;
+	text-align: center;
+	margin-bottom: 2.78125em;
+}
+
+.button-1 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+	font-weight: 300;
+	border-width: 0.28125em 1em;
+	border-style: solid;
+	border-color: #ff7931;
+	background-color: #ff7931;
+}
+
+.underwater-hotel__title-h2 {
+	text-align: center;
+	margin-bottom: 2.625em;
+}
+
+.title-h2 {
+	color:white;
+	font-size: 4.5rem;
+	font-weight: 300;
+	letter-spacing: 0.125rem;
+	text-transform: uppercase;
+}
+
+.underwater-hotel__swipebar {
+	margin:0 14.5625em 3em;
+	display: flex;
+	justify-content: start;
+}
+
+.underwater-hotel__word {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 0.8125rem;
+	margin: 0 0.625rem;
+	transform: translateY(40%);
+}
+
+.underwater-hotel__arrow {
+	margin: 0 0.9625em 0 18.0625em;
+	transform: translateY(-15%);
+}
+
+.underwater-hotel__Vector-51 {
+	margin: 0 0.55em;
+	transform: translateY(-15%);
+}
+
+.underwater-hotel__arrow_reverse {
+	transform: rotate(180deg) translateY(15%);
+	margin: 0 19.25em 0 0.9em;
+}
+
+.underwater-hotel__Vector-31 {
+	transform: translateY(10%);
+}
+
+.underwater-hotel__comment {
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0 35em;
+	text-align: center;
+	font-size: 0.84375rem;
+	line-height: 1.7;
+}
+
+/*news-review*/
+
+.news-review {
+	margin-bottom: 6em;
+}
+
+.area-top {
+	width: 73.125em;
+	margin: 0 auto;
+	display: flex;
+}
+
+.area-left {
+	width: 48.125em;
+	margin-right: 2em;
+}
+
+.area-right {
+	width: 23.125em;
+}
+
+/* area-left__news */
+
+.area-left__title {
+	margin-bottom: 1em;
+}
+
+.area-left__title-text {
+	font-size: 1.0625rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+}
+
+
+.area-left__main-content {
+	display: flex;
+}
+
+.area-left__main-section {
+	background-image: url(../img/birds.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 29.375em;
+	height: 20.875em;
+	margin-right: 1.8125em;
+}
+
+.area-left__main-section-title {
+	padding: 14.875em 0 0 1.4375em;
+}
+
+.area-left__main-section-comment {
+	padding: 0.625em 2em 1.3125em 1.4375em;
+}
+
+.area-left__main-section-title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 1.25em;
+}
+
+.area-left__main-section-comment-text {
+	font-size: 0.875em;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+
+.secondary-section__Leonov {
+	display: flex;
+	width: 17em;
+	height: 5.75em;
+	margin-bottom: 2em;
+}
+
+.secondary-section__Leonov-2 {
+	height: 22.125em;
+	width: 8.25em;
+	margin-left: 0.75em;
+}
+
+.secondary-section__Leonov-title-2-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 0.875rem;
+}
+
+.secondary-section__Leonov-2-comment {
+	margin-top: 0.4em;
+	height: 1.8125em;
+}
+
+.secondary-section__Leonov-2-comment-text {
+	font-size: 0.625rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.secondary-section__Writers-talk {
+	display: flex;
+}
+
+.secondary-section__Writers-talk-2 {
+	height: 22.125em;
+	width: 8.25em;
+	margin-left: 0.75em;
+}
+
+.Writers-talk-2-title {
+	padding-top: 0.5em;
+	height: 2.25em;
+	margin-bottom: 1em;
+}
+
+.Writers-talk-2-title__text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 0.875rem;
+	color: #ff7931;
+}
+
+.Writers-talk-pic {
+	background: url(../img/Rectangle\ 11.png), url(../img/writers.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 8em;
+	height: 5.75em;
+}
+
+.Writers-talk-pic__vector-27 {
+	margin: 0.5625em 0.5em 4.1875em 6.6875em;
+}
+
+.Writers-talk-2-comment__text {
+	font-size: 0.625rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.secondary-section__Patrick-s-day {
+	display: flex;
+	margin-top: -14.5em;
+}
+
+.Patrick-s-day-2 {
+	height: 22.125em;
+	width: 8.5em;
+	margin-left: 0.75em;
+}
+
+.Patrick-s-day-2__title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 0.875rem;
+}
+
+.Patrick-s-day-2__comment-text {
+	font-size: 0.625rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.Patrick-s-day-2__title {
+	margin-bottom: 0.45em;
+}
+
+.Patrick-s-day-1 {
+	height: 5.625em;
+	width: 8em;
+	background-image: url(../img/Patrick_s_Day.png), url(../img/Rectangle\ 6.2.png);
+}
+
+/* area-left__review */
+
+.area-left__review {
+	width: 48em;
+	height: 45.125em;
+	margin: 0 2em 3em 0;
+}
+
+.review__title {
+	margin: -12.5em 0 1em 0;
+}
+
+.review__title-text {
+	font-weight: 700;
+	font-size: 1.0625rem;
+	text-transform: uppercase;
+	letter-spacing: 0.125rem;
+}
+
+.review__main-section {
+	display: grid;
+	grid-template-columns: repeat(2, 24em);
+	grid-template-rows: repeat(2, 20.5em);
+	grid-gap: 1em;
+	margin-bottom: 3em;
+}
+
+.Monparnas-area__pic {
+	background-image: url(../img/krivorojiye.png);
+	width: 23.125em;
+	height: 12.6875em;
+	margin-bottom: 1.25em;
+}
+
+.Monparnas-area__title {
+	margin-bottom: 0.6875em;
+}
+
+.Monparnas-area__title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 1.4375rem;
+}
+
+.Monparnas-area__commment {
+	margin-bottom: 0.625em;
+}
+
+.Monparnas-area__comment-text {
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5;
+	white-space:pre-line;
+}
+
+.Anatomy-area__pic {
+	background-image: 
+	url(../img/Rectangle\ 12.png), 
+	url(../img/Снимок\ экрана\ 2018-10-24\ в\ 14.06.png);
+	width: 23.125em;
+	height: 12.6875em;
+	margin-bottom: 1.25em;
+}
+
+.Anatomy-area__pic-Zakladka {
+	margin: 0.625em 0 0 14.5em;
+}
+
+.Anatomy-area__pic-number-2 {
+	display: inline-block;
+	margin: 10.95em 0 0 0;
+}
+
+.Anatomy-area__pic-Union {
+	margin: 10.8125em 0 0 1em;
+}
+
+.Anatomy-area__pic-number-1 {
+	margin: 10.95em 0 0 0;
+}
+
+.Anatomy-area__pic-Vector {
+	margin: 10.8125em 0 0 1.1875em;
+}
+
+.Anatomy-area__title {
+	margin-bottom: 0.6875em;
+}
+
+.Anatomy-area__title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 1.4375rem;
+	color: #ff7931;
+}
+
+.Anatomy-area__comment {
+	margin-bottom: 0.625em;
+}
+
+.Anatomy-area__comment-text {
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5;
+	white-space:pre-line;
+}
+
+.Ru-ballet-area__pic {
+	background-image: url(../img/baleryna.png);
+	width: 23.125em;
+	height: 12.6875em;
+	margin-bottom: 1.25em;
+	margin-top: 1.5em;
+}
+
+.Ru-ballet-area__title {
+	margin-bottom: 0.6875em;
+}
+
+.Ru-ballet-area__title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 1.4375rem;
+}
+
+.Ru-ballet-area__comment {
+	margin-bottom: 0.625em;
+	width: 22em;
+}
+
+.Ru-ballet-area__comment-text {
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5;
+	white-space:pre-line;
+}
+
+.Spherical-weirdos-area__pic {
+	background-image: url(../img/babaded.png);
+	width: 23.125em;
+	height: 12.6875em;
+	margin-bottom: 1.25em;
+	margin-top: 1.5em;
+}
+
+.Spherical-weirdos-area__title {
+	margin-bottom: 0.6875em;
+}
+
+.Spherical-weirdos-area__title-text {
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 1.4375rem;
+}
+
+.Spherical-weirdos-area__comment {
+	margin-bottom: 0.625em;
+}
+
+.Spherical-weirdos-area__comment-text {
+	font-size: 0.875rem;
+	font-weight: 500;
+	line-height: 1.5;
+	white-space:pre-line;
+}
+
+.review__swipebar {
+	display: flex;
+	width: 28em;
+	margin: 5em auto 4.75em;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.swipeber__Vector-51 {
+	margin-right: 5em;
+}
+
+.swipeber__Vector-52 {
+	margin-left: 5em;
+}
+
+.swipebar__number_focus {
+	display: flex;
+	flex-direction: column;
+}
+
+.swipebar__number_focus-text {
+	color: black;
+	font-size: 1.25rem;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.swipebar__number-text, .swipebar__threedots-text {
+	color: grey;
+	font-size: 0.875rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.swipebar__arrow_reverse-pic {
+	transform: rotate(180deg);
+}
+
+.review__ballet-banner {
+	display: flex;
+	justify-content: center;
+	width: 48em;
+	height: 11em;
+	background: url(../img/shpagat.png), url(../img/Rectangle\ 13.png);
+	align-items: center;
+}
+
+.review__ballet-banner-text {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-right: 0.75em;
+}
+
+.button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 10.5em;
+	height: 3em;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 0.125em solid #FF9A64;
+	margin-left: 1.5em;
+}
+
+.button__ref {
+	text-decoration: none;
+	display: flex;
+}
+
+.button__text {
+	color: #fff;
+	font-size: 0.75rem;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.button__img {
+	margin-left: 1em;
+	transform: translateY(-10%);
+}
+
+/*area-right*/
+
+.area-right {
+	width: 23.125em;
+	margin-bottom: 5em;
+}
+
+.area-right__balloon {
+	display: flex;
+	flex-direction: column;
+	width: 23.125em;
+	height: 30em;
+	margin-bottom: 2em;
+	background: url(../img/girl\ with\ balloon.png);
+}
+
+.area-right__balloon-text {
+	margin: 1.5em 0 8.3em 0;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: 0.125rem;
+	color: #1A1C1C;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button__balloon {
+	background-color: #FF7931;
+	border-color: #ff7931;
+	margin: 0 auto;
+}
+
+.area-right__photoshoot {
+	display: flex;
+	flex-direction: column;
+	width: 23.125em;
+	height: 30em;
+	margin-bottom: 2em;
+	background: url(../img/girl\ under\ water.png);
+}
+
+.area-right__photoshoot-text {
+	margin: 1.5em 0 8.3em 0;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: 0.125rem;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button__photoshoot {
+	margin: 0 auto;
+}
+
+.area-right__bird-show {
+	display: flex;
+	flex-direction: column;
+	width: 23.125em;
+	height: 30em;
+	background: url(../img/bird.png);
+}
+
+.area-right__bird-show-text {
+	margin: 1.5em 0 8.3em 0;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: 0.125rem;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.area-bottom {
+	width: 73.25em;
+	height: 8.5em;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.area-bottom__main {
+	width: 16.875em;
+	height: 8.5em;
+	background: url(../img/watches.png);
+	display: flex;
+}
+
+.area-bottom__main-swipeLeft {
+	color:  #A8A8A8;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	width: 2.75em;
+	height: 2.75em;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(-50%);
+	margin-top: 3em;
+}
+
+.area-bottom__main-content {
+	margin-top: 2.625em;
+}
+
+.area-bottom__main-text {
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.125rem;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+
+.area-bottom__main-button {
+	width: 7em;
+	height: 2em;
+	margin: 0 auto;
+	padding: 0.3em 0.8em;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+.area-bottom__main-button-ref {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.625rem;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 0.125rem;
+}
+
+.area-bottom__2nd {
+	width: 16.875em;
+	height: 6.7em;
+	background: url(../img/canion.png);
+}
+
+.area-bottom__3rd {
+	width: 16.875em;
+	height: 6.7em;
+	background: url(../img/blue\ flat.png);
+}
+
+.area-bottom__4th {
+	width: 16.875em;
+	height: 6.7em;
+	background: url(../img/airplanes.png);
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.area-bottom__main-swipeRight {
+	color:  #A8A8A8;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	width: 2.75em;
+	height: 2.75em;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(50%) rotate(180deg);
+}
+
+/* footer */
+
+.footer {
+	background-color: #F7F7F7;
+	padding-top: 1.625em;
+}
+
+.footer__title-h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 1.75rem;
+	font-weight: 900;
+	letter-spacing: 0.0625rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.footer__navbar {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.footer__navbar-li {
+	font-size: 0.9375rem;
+	font-weight: 500;
+	letter-spacing: 0.125rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	padding: 0 1.5em 0;
+}
+
+.footer__copyrights-line {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	width: 73.25em;
+	margin: 0 auto;
+}
+
+.footer__copyrights__text {
+	width: 117.2em;
+	margin: 0 auto;
+	text-align: end;
+	font-size: 0.625rem;
+	color: rgba(0, 0, 0, 0.5);
+	padding-top: 0.8em;
+}
