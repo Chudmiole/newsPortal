@@ -42,11 +42,21 @@ input, textarea, button, select {
 
 /*обнуление*/
 
+
+	
+
+body {
+font-family: 'Raleway', sans-serif;
+}
+
 @media (max-width: 900px) {
 	body {
 		max-width: 20em;
 	}
+}
+/* header */
 
+@media (max-width:900px) {
 	header {
 		width: 100%;
 		display: flex;
@@ -70,12 +80,6 @@ input, textarea, button, select {
 	}
 }
 
-body {
-font-family: 'Raleway', sans-serif;
-}
-
-/* header */
-
 .title-h1 {
 	margin: 3.75em auto 2.875em;
 	text-align: center;
@@ -88,19 +92,64 @@ font-family: 'Raleway', sans-serif;
 	letter-spacing: 0.0625rem;
 }
 
+@media (max-width:900px) {
+	.title-h1 {
+		text-align: center;
+		margin: 40px 0 30px;
+	}
+
+	.h1 {
+		font-size: 1.5625rem;
+	}
+}
+
 .navbar {
 	text-align: center;
 	margin-bottom: 3em;
 }
 
+.navbar__cross {
+	display: none;
+}
+
 .navbar__li {
+	display: inline-block;
+	padding: 0 1.5em 0;
+}
+
+.navbar__li-text {
 	font-size: 0.9375rem;
 	font-weight: 500;
 	letter-spacing: 0.125rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	padding: 0 1.5em 0;
+}
+
+.navbar__li-image {
+	display: none;
+}
+
+@media (max-width:900px) {
+	.navbar {
+		text-align: left;
+		margin: 0;
+		display: none;
+	}
+
+	.navbar:hover {
+		display: block;
+	}
+
+	.navbar__cross {
+		display: inline-block;
+		margin: 1em 0 2em 17em;
+	}
+
+	.navbar__li {
+		display: block;
+		width: 100%;
+	}
 }
 
 /*underwater-hotel*/
@@ -115,14 +164,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 @media (max-width: 900px) {
-	.title-h1 {
-		text-align: center;
-		margin: 40px 0 30px;
-	}
-
-	.h1 {
-		font-size: 1.5625rem;
-	}
 
 	.underwater-hotel {
 		background: url(images/Hotel-11.jpg);
