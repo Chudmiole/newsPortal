@@ -128,6 +128,24 @@ font-family: 'Raleway', sans-serif;
 		width: 320px;
 		height: 57px;
 		background-color: #f9f9fc;
+		text-transform: uppercase;
+		letter-spacing: 10%;
+		line-height: 57px;
+		color: #48494d;
+		padding-left: 16px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.burger-menu__nav-image {
+		margin: auto 0;
+		margin-right: 22px;
+	}
+
+	.nav-exit {
+		width: 28px;
+		height: 28px;
+		margin: 17px 0 0 275px;
 	}
 
 	.nav-menu {
