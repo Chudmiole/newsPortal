@@ -123,6 +123,10 @@ font-family: 'Raleway', sans-serif;
 		width: 100%;
 	}
 
+.burger-menu__nav {
+	display: none;
+}
+
 	.burger-menu__nav-text {
 		margin: 20px auto;
 		width: 320px;
@@ -153,10 +157,6 @@ font-family: 'Raleway', sans-serif;
 	}
 }
 
-@media (max-width:902px) {
-	
-}
-
 /*underwater-hotel*/
 
 .underwater-hotel {
@@ -165,17 +165,16 @@ font-family: 'Raleway', sans-serif;
 	margin: 0 auto 6em;
 	background-image: url(../newsPortal/images/Hotel-11.jpg);
 	background-size: contain;
-	/* background-repeat: no-repeat; */
 }
 
-@media (max-width: 900px) {
-
+@media (max-width: 902px) {
 	.underwater-hotel {
 		width: 20em;
 		height: 23.25em;
 		background-image: url(images/Hotel-11-m.png);
 		background-repeat: no-repeat;
 		background-position: 0 0;
+		margin: 0 auto 50px;
 	}
 }
 
@@ -183,6 +182,15 @@ font-family: 'Raleway', sans-serif;
 	padding-top: 3.84375em;
 	text-align: center;
 	margin-bottom: 2.78125em;
+}
+
+@media (max-width: 902px) {
+	.underwater-hotel__button {
+		display: inline-block;
+		padding-top: 0;
+		margin-bottom: 0;
+		margin: 25px 111px 30px 110px;
+	}
 }
 
 .button-1 {
@@ -196,17 +204,28 @@ font-family: 'Raleway', sans-serif;
 	background-color: #ff7931;
 }
 
-.underwater-hotel__title-h2 {
-	text-align: center;
-	margin-bottom: 2.625em;
+@media (max-width: 902px) {
+	.button-1 {
+		border-width: 4px 14px 6px 15px;
+	}
 }
 
 .title-h2 {
+	text-align: center;
+	margin-bottom: 0.58em;
 	color:white;
 	font-size: 4.5rem;
 	font-weight: 300;
 	letter-spacing: 0.125rem;
 	text-transform: uppercase;
+}
+
+@media (max-width: 902px) {
+	.title-h2 {
+		font-size: 30px;
+		line-height: 45px;
+		margin-bottom: 6px;
+	}
 }
 
 .underwater-hotel__swipebar {
@@ -241,6 +260,12 @@ font-family: 'Raleway', sans-serif;
 	transform: translateY(10%);
 }
 
+@media (max-width: 902px) {
+	.underwater-hotel__swipebar {
+		display: none;
+	}
+}
+
 .underwater-hotel__comment {
 	color: rgba(255, 255, 255, 0.8);
 	margin: 0 35em;
@@ -249,10 +274,42 @@ font-family: 'Raleway', sans-serif;
 	line-height: 1.7;
 }
 
+@media (max-width: 902px) {
+	.underwater-hotel__comment {
+		margin: 0 16px 30px;
+	}
+
+	.comment {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+}
+
+.underwater-hotel__swipebar-mobile {
+	display: none;
+}
+
+@media (max-width: 902px) {
+	.underwater-hotel__swipebar-mobile {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 105px;
+	}
+}
+
 /*news-review*/
 
 .news-review {
 	margin-bottom: 6em;
+}
+
+@media (max-width: 902px) {
+	.news-review {
+		max-width: 320px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 .area-top {
@@ -270,22 +327,34 @@ font-family: 'Raleway', sans-serif;
 	width: 23.125em;
 }
 
-/* area-left__news */
-
-.area-left__title {
-	margin-bottom: 1em;
+@media (max-width: 902px) {
+	.area-top, .area-left, .area-right, .area-left__news {
+		width: 288px;
+		margin:0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
+
+/* area-left__news */
 
 .area-left__title-text {
 	font-size: 1.0625rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.125em;
+	margin-bottom: 1em;
 }
-
 
 .area-left__main-content {
 	display: flex;
+}
+
+@media(max-width: 902px) {
+	.area-left__main-content {
+		flex-direction: column;
+	}
 }
 
 .area-left__main-section {
@@ -297,26 +366,41 @@ font-family: 'Raleway', sans-serif;
 	margin-right: 1.8125em;
 }
 
-.area-left__main-section-title {
-	padding: 14.875em 0 0 1.4375em;
-}
-
-.area-left__main-section-comment {
-	padding: 0.625em 2em 1.3125em 1.4375em;
+@media (max-width: 902px) {
+	.area-left__main-section {
+		width: 288px;
+		height: 314px;
+		margin: 0;
+		margin-bottom: 24px;
+		background-image: url(images/1344287851_w640_h640_33_107.png);
+		background-size:unset;
+		background-repeat: unset;
+	}
 }
 
 .area-left__main-section-title-text {
+	padding: 14.875rem 0 0 1.4375rem;
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 900;
 	font-size: 1.25em;
 }
 
 .area-left__main-section-comment-text {
+	padding: 0.625rem 2rem 1.3125rem 1.4375rem;
 	font-size: 0.875em;
 	line-height: 1.5;
 	font-weight: 500;
 }
 
+@media (max-width: 902px) {
+	.area-left__main-section-title-text {
+		padding: 162px 15px 15px 15px;
+	}
+
+	.area-left__main-section-comment-text {
+		padding: 0 15px 20px 15px;
+	}
+}
 
 .secondary-section__Leonov {
 	display: flex;
