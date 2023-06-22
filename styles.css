@@ -400,6 +400,10 @@ font-family: 'Raleway', sans-serif;
 	.area-left__main-section-comment-text {
 		padding: 0 15px 20px 15px;
 	}
+
+	.area-left__secondary-section {
+		margin: 0 auto;
+	}
 }
 
 .secondary-section__Leonov {
@@ -512,6 +516,13 @@ font-family: 'Raleway', sans-serif;
 	width: 48em;
 	height: 45.125em;
 	margin: 0 2em 3em 0;
+}
+
+@media (max-width: 902px) {
+	.area-left__review {
+		width: 18rem;
+		margin: 0 1rem 0 1rem;
+	}
 }
 
 .review__title {
