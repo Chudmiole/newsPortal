@@ -48,7 +48,7 @@ font-family: 'Raleway', sans-serif;
 
 @media (max-width: 902px) {
 	body {
-		max-width: 20em;
+		max-width: 20rem;
 		margin: 0 auto;
 	}
 }
@@ -300,7 +300,7 @@ font-family: 'Raleway', sans-serif;
 /*news-review*/
 
 .news-review {
-	margin-bottom: 6em;
+	margin-bottom: 6rem;
 }
 
 @media (max-width: 902px) {
@@ -309,6 +309,7 @@ font-family: 'Raleway', sans-serif;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		margin: 0 auto;
 	}
 }
 
@@ -329,8 +330,7 @@ font-family: 'Raleway', sans-serif;
 
 @media (max-width: 902px) {
 	.area-top, .area-left, .area-right, .area-left__news {
-		width: 288px;
-		margin:0;
+		width: 20rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -343,8 +343,14 @@ font-family: 'Raleway', sans-serif;
 	font-size: 1.0625rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 0.125em;
-	margin-bottom: 1em;
+	letter-spacing: 0.125rem;
+	margin-bottom: 1rem;
+}
+
+@media (max-width:902px) {
+	.area-left__title-text {
+		margin: 0 1rem 1rem 1rem;
+	}
 }
 
 .area-left__main-content {
@@ -370,7 +376,7 @@ font-family: 'Raleway', sans-serif;
 	.area-left__main-section {
 		width: 288px;
 		height: 314px;
-		margin: 0;
+		margin: 0 auto;
 		margin-bottom: 24px;
 		background-image: url(images/1344287851_w640_h640_33_107.png);
 		background-size:unset;
@@ -382,27 +388,27 @@ font-family: 'Raleway', sans-serif;
 	padding: 14.875rem 0 0 1.4375rem;
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 900;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 }
 
 .area-left__main-section-comment-text {
 	padding: 0.625rem 2rem 1.3125rem 1.4375rem;
-	font-size: 0.875em;
+	font-size: 0.875rem;
 	line-height: 1.5;
 	font-weight: 500;
 }
 
 @media (max-width: 902px) {
 	.area-left__main-section-title-text {
-		padding: 162px 15px 15px 15px;
+		padding: 10rem 1rem 1rem 1rem;
 	}
 
 	.area-left__main-section-comment-text {
-		padding: 0 15px 20px 15px;
+		padding: 0 1rem 1.25rem 1rem;
 	}
 
 	.area-left__secondary-section {
-		margin: 0 auto;
+		margin: 0 1rem 0 1rem;
 	}
 }
 
@@ -482,6 +488,12 @@ font-family: 'Raleway', sans-serif;
 	margin-top: -14.5em;
 }
 
+@media (max-width:902px) {
+	.secondary-section__Patrick-s-day {
+		margin-bottom: -13rem;
+	}
+}
+
 .Patrick-s-day-2 {
 	height: 22.125em;
 	width: 8.5em;
@@ -513,9 +525,9 @@ font-family: 'Raleway', sans-serif;
 /* area-left__review */
 
 .area-left__review {
-	width: 48em;
-	height: 45.125em;
-	margin: 0 2em 3em 0;
+	width: 48rem;
+	height: 45.125rem;
+	margin: 0 2rem 3rem 0;
 }
 
 @media (max-width: 902px) {
@@ -525,15 +537,18 @@ font-family: 'Raleway', sans-serif;
 	}
 }
 
-.review__title {
-	margin: -12.5em 0 1em 0;
-}
-
 .review__title-text {
+	margin: -12.5rem 0 1rem 0;
 	font-weight: 700;
 	font-size: 1.0625rem;
 	text-transform: uppercase;
 	letter-spacing: 0.125rem;
+}
+
+@media (max-width: 902px) {
+	.review__title-text {
+		margin: 0 0 1rem 0;
+	}
 }
 
 .review__main-section {
@@ -544,21 +559,38 @@ font-family: 'Raleway', sans-serif;
 	margin-bottom: 3em;
 }
 
-.Monparnas-area__pic {
-	background-image: url(../newsPortal/images/krivorojiye.png);
-	width: 23.125em;
-	height: 12.6875em;
-	margin-bottom: 1.25em;
+@media (max-width: 902px) {
+	.review__main-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Monparnas-area {
+		margin-bottom: 1.87rem;
+	}
 }
 
-.Monparnas-area__title {
-	margin-bottom: 0.6875em;
+.Monparnas-area__pic {
+	background-image: url(../newsPortal/images/krivorojiye.png);
+	width: 23.125rem;
+	height: 12.6875rem;
+	margin-bottom: 1.25rem;
+}
+
+@media (max-width: 902px) {
+	.Monparnas-area__pic {
+		width: 18rem;
+		height: 12.6875rem;
+		background-position: center;
+		margin-bottom: 1rem;
+	}
 }
 
 .Monparnas-area__title-text {
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 900;
 	font-size: 1.4375rem;
+	margin-bottom: 0.6875rem;
 }
 
 .Monparnas-area__commment {
@@ -579,6 +611,17 @@ font-family: 'Raleway', sans-serif;
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
+}
+
+@media (max-width: 902px) {
+	.Anatomy-area__pic {
+		width: 18rem;
+		height: 12.7rem;
+		background-image: 
+		url(../newsPortal/images/Rectangle\ 12.png), 
+		url(../newsPortal/images/noga1.png);
+		margin-bottom: 1rem;
+	}
 }
 
 .Anatomy-area__pic-Zakladka {
@@ -622,6 +665,20 @@ font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	line-height: 1.5;
 	white-space:pre-line;
+}
+
+@media (max-width: 902px) {
+	.Anatomy-area__pic-Vector, .Anatomy-area__pic-number-1, .Anatomy-area__pic-number-2, .Anatomy-area__pic-Union {
+		display: none;
+	}
+
+	.Anatomy-area__pic-Zakladka {
+		margin: 1.25rem 0 0 16rem;
+	}
+
+	.Anatomy-area__comment-text {
+		white-space: normal;
+	}
 }
 
 .Ru-ballet-area__pic {
@@ -771,8 +828,14 @@ font-family: 'Raleway', sans-serif;
 /*area-right*/
 
 .area-right {
-	width: 23.125em;
-	margin-bottom: 5em;
+	width: 23.125rem;
+	margin-bottom: 5rem;
+}
+
+@media (max-width:902px) {
+	.area-right {
+		margin: 100rem auto 2rem;
+	}
 }
 
 .area-right__balloon {
