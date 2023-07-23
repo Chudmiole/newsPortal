@@ -564,10 +564,6 @@ font-family: 'Raleway', sans-serif;
 		display: flex;
 		flex-direction: column;
 	}
-
-	.Monparnas-area {
-		margin-bottom: 1.87rem;
-	}
 }
 
 .Monparnas-area__pic {
@@ -593,7 +589,7 @@ font-family: 'Raleway', sans-serif;
 	margin-bottom: 0.6875rem;
 }
 
-.Monparnas-area__commment {
+.Monparnas-area__comment {
 	margin-bottom: 0.625em;
 }
 
@@ -602,6 +598,12 @@ font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	line-height: 1.5;
 	white-space:pre-line;
+}
+
+@media (max-width: 902px) {
+	.Monparnas-area__comment {
+		margin-bottom: 1rem;
+	}
 }
 
 .Anatomy-area__pic {
@@ -676,6 +678,10 @@ font-family: 'Raleway', sans-serif;
 		margin: 1.25rem 0 0 16rem;
 	}
 
+	.Anatomy-area__comment {
+		margin-bottom: 1rem;
+	}
+
 	.Anatomy-area__comment-text {
 		white-space: normal;
 	}
@@ -711,12 +717,35 @@ font-family: 'Raleway', sans-serif;
 	white-space:pre-line;
 }
 
+@media (max-width: 902px) {
+	.Ru-ballet-area__pic {
+		width: 18rem;
+		height: 12.6875rem;
+		margin: 0;
+		margin-bottom: 1rem;
+		background-position: 50% 0;
+	}
+
+	.Ru-ballet-area__comment {
+		width: inherit;
+		margin: 0 auto -1.5rem;
+	}
+}
+
 .Spherical-weirdos-area__pic {
 	background-image: url(../newsPortal/images/babaded.png);
 	width: 23.125em;
 	height: 12.6875em;
 	margin-bottom: 1.25em;
 	margin-top: 1.5em;
+}
+
+@media (max-width: 902px) {
+	.Spherical-weirdos-area__pic {
+		background: url(images/weirdos-mobile.png);
+		width: 18rem;
+		height: 12.625rem;
+	}
 }
 
 .Spherical-weirdos-area__title {
@@ -733,10 +762,16 @@ font-family: 'Raleway', sans-serif;
 	margin-bottom: 0.625em;
 }
 
+@media (max-width: 902px) {
+	.Spherical-weirdos-area__comment {
+		margin-bottom: 1.87rem;
+	}
+}
+
 .Spherical-weirdos-area__comment-text {
 	font-size: 0.875rem;
 	font-weight: 500;
-	line-height: 1.5;
+	line-height: 150%;
 	white-space:pre-line;
 }
 
@@ -748,6 +783,28 @@ font-family: 'Raleway', sans-serif;
 	align-items: center;
 }
 
+@media (max-width: 902px) {
+	.review__swipebar {
+		margin: -3rem auto 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 18rem;
+		height: 2.5rem;
+		gap: 0.4375rem;
+	}
+}
+
+.swipebar__mobile-arrow-left, .swipebar__mobile-arrow-right {
+	display: none;
+}
+
+@media (max-width: 902px) {
+	.swipebar__mobile-arrow-left, .swipebar__mobile-arrow-right {
+		display: flex;
+	}
+}
+
 .swipeber__Vector-51 {
 	margin-right: 5em;
 }
@@ -756,12 +813,17 @@ font-family: 'Raleway', sans-serif;
 	margin-left: 5em;
 }
 
+.swipebar__number-mobile {
+	display: none;
+}
+
 .swipebar__number_focus {
 	display: flex;
 	flex-direction: column;
 }
 
 .swipebar__number_focus-text {
+	display: flex;
 	color: black;
 	font-size: 1.25rem;
 	font-weight: 500;
@@ -769,14 +831,50 @@ font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
 
+.swipebar__number_focus-pic {
+	transform: translate(-15%);
+}
+
 .swipebar__number-text, .swipebar__threedots-text {
+	display: flex;
 	color: grey;
 	font-size: 0.875rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 902px) {
+	.swipebar__number-text {
+		display: none;
+	}
+
+	.swipebar__number-mobile {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0.5rem 0.8rem 0.625rem 0.8rem;
+		font-size: 1.125rem;
+		font-family: 'Montserrat', sans-serif;
+		color: #48494D;
+	}
+
+	.swipebar__number_focus-text {
+		color:#FF7931;
+		border: 1px solid #FF7931;
+	}
+
+	.swipebar__mobile-arrow-right {
+		rotate:180deg;
+	}
+}
+
 .swipebar__arrow_reverse-pic {
 	transform: rotate(180deg);
+}
+
+@media (max-width: 902px) {
+	.swipebar__arrow, .swipeber__Vector-52, .swipeber__Vector-51, .swipebar__arrow_reverse, .swipebar__number_focus-pic {
+		display: none;
+	}
 }
 
 .review__ballet-banner {
@@ -796,6 +894,24 @@ font-family: 'Raleway', sans-serif;
 	margin-right: 0.75em;
 }
 
+@media (max-width: 902px) {
+	.review__ballet-banner {
+		width: 20rem;
+		height: 11rem;
+		flex-direction: column;
+		justify-content: start;
+		background: url(images/david-hofmann-588877-unsplash.png) 
+		lightgray 50% / cover no-repeat;
+		margin-left: -1rem;
+	}
+	
+	.review__ballet-banner-text {
+		font-size: 1.25rem;
+		margin: 2.7rem auto 1.25rem;
+		letter-spacing: 0.125rem;
+	}
+}
+
 .button {
 	display: flex;
 	justify-content: space-around;
@@ -807,12 +923,17 @@ font-family: 'Raleway', sans-serif;
 	margin-left: 1.5em;
 }
 
-.button__ref {
-	text-decoration: none;
-	display: flex;
-}
+	@media (max-width: 902px) {
+		.button {
+			margin: 0 4.7rem 0 4.7rem;
+		}
+	}
 
 .button__text {
+	font-family: 'Raleway', sans-serif;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: #fff;
 	font-size: 0.75rem;
 	font-weight: 500;
@@ -821,7 +942,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 .button__img {
-	margin-left: 1em;
 	transform: translateY(-10%);
 }
 
@@ -834,7 +954,8 @@ font-family: 'Raleway', sans-serif;
 
 @media (max-width:902px) {
 	.area-right {
-		margin: 100rem auto 2rem;
+		width: 20rem;
+		margin: 85rem 1rem 3.75rem 1rem;
 	}
 }
 
@@ -847,6 +968,12 @@ font-family: 'Raleway', sans-serif;
 	background: url(../newsPortal/images/girl\ with\ balloon.png);
 }
 
+@media (max-width: 902px) {
+	.area-right__balloon {
+		background: url(images/drew-colins-1114440-unsplash.png);
+	}
+}
+
 .area-right__balloon-text {
 	margin: 1.5em 0 8.3em 0;
 	font-family: 'Playfair Display', sans-serif;
@@ -856,6 +983,13 @@ font-family: 'Raleway', sans-serif;
 	color: #1A1C1C;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+@media (max-width: 902px) {
+	.area-right__balloon-text {
+		font-size: 1.25rem;
+		margin: 2.5rem 3.9rem 8rem;
+	}
 }
 
 .button__balloon {
@@ -873,6 +1007,12 @@ font-family: 'Raleway', sans-serif;
 	background: url(../newsPortal/images/girl\ under\ water.png);
 }
 
+@media (max-width: 902px) {
+	.area-right__photoshoot {
+		background: url(images/jeremy-bishop-1114290-unsplash.png);
+	}
+}
+
 .area-right__photoshoot-text {
 	margin: 1.5em 0 8.3em 0;
 	font-family: 'Playfair Display', sans-serif;
@@ -882,6 +1022,13 @@ font-family: 'Raleway', sans-serif;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+@media (max-width: 902px) {
+	.area-right__photoshoot-text {
+		font-size: 1.25rem;
+		margin: 2.5rem 3.53rem 7.25rem;
+	}
 }
 
 .button__photoshoot {
@@ -896,6 +1043,12 @@ font-family: 'Raleway', sans-serif;
 	background: url(../newsPortal/images/bird.png);
 }
 
+@media (max-width: 902px) {
+	.area-right__bird-show {
+		background: url(images/bogdan-pasca-1114196-unsplash.png);
+	}
+}
+
 .area-right__bird-show-text {
 	margin: 1.5em 0 8.3em 0;
 	font-family: 'Playfair Display', sans-serif;
@@ -907,6 +1060,19 @@ font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 }
 
+@media (max-width: 902px) {
+	.area-right__balloon, .area-right__bird-show,
+	.area-right__photoshoot {
+		width: 18rem;
+		height: 19.375rem;
+	}
+
+	.area-right__bird-show-text {
+		font-size: 1.25rem;
+		margin: 2.5rem 4.75rem 7.7rem;
+	}
+}
+
 .area-bottom {
 	width: 73.25em;
 	height: 8.5em;
@@ -916,11 +1082,41 @@ font-family: 'Raleway', sans-serif;
 	align-items: center;
 }
 
+@media (max-width:902px) {
+	.area-bottom {
+		margin-top: -77rem;
+		margin-left: 0;
+		width: 20rem;
+		height: 9.125rem;
+		flex-direction: column;
+	}
+}
+
 .area-bottom__main {
 	width: 16.875em;
 	height: 8.5em;
 	background: url(../newsPortal/images/watches.png);
 	display: flex;
+}
+
+.area-bottom__svg {
+	display: none;
+}
+
+@media (max-width:902px) {
+	.area-bottom__main {
+		width: 18rem;
+		height: 10rem;
+		justify-content: center;
+		margin: 0 0 1rem 0;
+		background: 
+		url(images/floris-jan-roelof-huiskamp-1114976-unsplash.png), 
+		lightgray 50% / cover no-repeat;
+	}
+
+	.area-bottom__svg {
+		display: flex;
+	}
 }
 
 .area-bottom__main-swipeLeft {
@@ -1000,6 +1196,13 @@ font-family: 'Raleway', sans-serif;
 	transform: translateX(50%) rotate(180deg);
 }
 
+@media (max-width:902px) {
+	.area-bottom__2nd, .area-bottom__3rd, .area-bottom__4th,
+	.area-bottom__main-swipeLeft, .area-bottom__main-swipeRight {
+		display: none;
+	}
+}
+
 /* footer */
 
 .footer {
@@ -1044,4 +1247,10 @@ font-family: 'Raleway', sans-serif;
 	font-size: 0.625rem;
 	color: rgba(0, 0, 0, 0.5);
 	padding-top: 0.8em;
+}
+
+@media (max-width: 902px) {
+	footer {
+		display: none;
+	}
 }
